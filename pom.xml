@@ -2,9 +2,9 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.tcs</groupId>
-  <artifactId>DummyApplication</artifactId>
+  <artifactId>TestNexus</artifactId>
   <packaging>war</packaging>
-  <version>1.622</version>
+  <version>1.0</version>
   <name>DummyApplication Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
@@ -36,6 +36,12 @@
 	</dependency>
   </dependencies>
   <build>
-    <finalName>DummyApplication</finalName>
+    <finalName>TestNexus</finalName>
   </build>
+  <distributionManagement>
+  <repository>
+    <id>releases</id>
+    <url>http://localhost:8081/nexus/content/repositories/releases</url>
+  </repository>
+</distributionManagement>
 </project>
