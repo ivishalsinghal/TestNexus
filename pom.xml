@@ -40,8 +40,8 @@
   </build>
   <distributionManagement>
   <repository>
-    <id>releases</id>
-    <url>http://localhost:8081/nexus/content/repositories/releases</url>
+    <id>thirdparty</id>
+    <url>http://localhost:8081/nexus/content/repositories/thirdparty</url>
   </repository>
 </distributionManagement>
 </project>
